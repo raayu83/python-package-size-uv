@@ -1,24 +1,26 @@
 # Recursive Package Size
 
+This is a fork of https://github.com/qertoip/python-package-size.
+
 Learn after-install weight of any Python package including its dependencies.
 
 The tool will **loop over your project dependencies**, install each dependency in its own venv and report the actual size including dependency tree.
 
 This is useful for optimizing dependencies of your large applications, libraries or containers.
 
-This is **especially useful in machine learning** context, where dependencies easily explode into gigabates.
+This is **especially useful in machine learning** context, where dependencies easily explode into gigabytes.
 
 ## Installation
 
-`pip install python-package-size`
+`pip install uv-package-size`
 
 ## Usage
 
-`python-package-size -r pyproject.toml`
+`uv-package-size -r pyproject.toml`
 
 or
 
-`python-package-size -r requirements.txt`
+`uv-package-size -r requirements.txt`
 
 ## Example output
 
