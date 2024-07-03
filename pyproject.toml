@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "python-package-size-uv"
-version = "0.5.1"
+version = "0.5.2"
 description = "Learn after-install weight of any Python package including its dependencies."
 authors = ["Niklaus Stadler"]
 license = "MIT"
