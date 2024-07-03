@@ -1,13 +1,13 @@
 [tool.poetry]
-name = "uv-package-size"
+name = "python-package-size-uv"
 version = "0.5.0"
 description = "Learn after-install weight of any Python package including its dependencies."
 authors = ["Niklaus Stadler"]
 license = "MIT"
-repository = "https://github.com/raayu83/python-package-size"
-homepage = "https://github.com/raayu83/python-package-size"
+repository = "https://github.com/raayu83/python-package-size-uv"
+homepage = "https://github.com/raayu83/python-package-size-uv"
 packages = [
-    { include = "uv_package_size" },
+    { include = "python_package_size_uv" },
 ]
 classifiers = [
     "License :: OSI Approved :: MIT License",
@@ -19,14 +19,14 @@ readme = "README.md"
 
 
 [tool.poetry.dependencies]
-python = ">=3.9.2, <3.12"
+python = ">=3.9.2, <3.13"
 uv = "^0.2.18"
 
 [tool.poetry.group.dev.dependencies]
 ruff = "^0.5.0"
 
 [tool.poetry.scripts]
-uv-package-size = 'uv_package_size.main:main'
+python-package-size-uv = 'python_package_size_ui.main:main'
 
 [tool.ruff]
 line-length = 120

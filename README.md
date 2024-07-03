@@ -1,6 +1,6 @@
 # Recursive Package Size
 
-This is a fork of https://github.com/qertoip/python-package-size.
+This is a fork of https://github.com/qertoip/python-package-size.  The main difference is that it uses [uv](https://github.com/astral-sh/uv) instead of pip for temporarily installing the packages, which boost performance by a lot.
 
 Learn after-install weight of any Python package including its dependencies.
 
@@ -12,15 +12,15 @@ This is **especially useful in machine learning** context, where dependencies ea
 
 ## Installation
 
-`pip install uv-package-size`
+`pip install python-package-size-uv`
 
 ## Usage
 
-`uv-package-size -r pyproject.toml`
+`python-package-size-uv -r pyproject.toml`
 
 or
 
-`uv-package-size -r requirements.txt`
+`python-package-size-uv -r requirements.txt`
 
 ## Example output
 
