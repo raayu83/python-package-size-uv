@@ -25,9 +25,13 @@ or
 ## Example output
 
 ```
+Determined package sizes:
+
         mypy:   43.7 MB
       awscli:   34.0 MB
        black:    6.7 MB
       pylint:    6.5 MB
       pytest:    2.5 MB
 ```
+
+Additionally, the result is written in a csv file with default name `package_sizes.csv`.
