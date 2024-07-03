@@ -15,7 +15,7 @@ This is **especially useful in machine learning** context, where dependencies ea
 ## Installation
 
 - pip: `pip install python-package-size-uv`
-- pix: `pipx install python-package-size-uv`
+- pipx: `pipx install python-package-size-uv`
 
 ## Usage
 
